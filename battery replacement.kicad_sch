@@ -2586,6 +2586,12 @@
 		(uuid "6f285e5a-4b3b-48b7-aac0-4ee38021b24d")
 	)
 	(junction
+		(at 248.92 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f271dea-9db8-4b9f-b5b0-4db492410698")
+	)
+	(junction
 		(at 69.85 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2652,6 +2658,16 @@
 	(no_connect
 		(at 116.84 49.53)
 		(uuid "8378a550-1cfe-4590-9262-3b7432afd40f")
+	)
+	(wire
+		(pts
+			(xy 248.92 82.55) (xy 248.92 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01985fb1-17e4-482c-9289-63e4ae895efd")
 	)
 	(wire
 		(pts
@@ -3205,6 +3221,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 82.55) (xy 280.67 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df2e60d3-56cc-4f8b-a8dd-49d15591f8b2")
+	)
+	(wire
+		(pts
 			(xy 19.05 38.1) (xy 19.05 43.18)
 		)
 		(stroke
@@ -3452,6 +3478,16 @@
 			(justify left bottom)
 		)
 		(uuid "d63a9721-89df-42b4-8559-257c4fe75851")
+	)
+	(label "PGND"
+		(at 280.67 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "da59e3dd-d68f-47f9-88f7-592ab13b4158")
 	)
 	(label "EN"
 		(at 243.84 36.83 180)
@@ -4616,6 +4652,84 @@
 			(project "battery replacement"
 				(path "/e18ffe70-5d49-4f98-b8fd-2f3dffb253f2"
 					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 248.92 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8107228a-5087-407a-a33a-e59b3455c9b8")
+		(property "Reference" "#PWR04"
+			(at 248.92 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 248.92 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 248.92 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e69ea298-741a-4b61-932c-4eea4813fd63")
+		)
+		(instances
+			(project "battery replacement"
+				(path "/e18ffe70-5d49-4f98-b8fd-2f3dffb253f2"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
