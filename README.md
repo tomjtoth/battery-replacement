@@ -46,6 +46,7 @@ I tried arranging the converter's pins similarly to as seen in the datasheet's T
 The board is 9 x 25mm sized. The minimum 5 pieces of 100x100mm panels (at JLCPCB) should yield 5x10x4 pieces
 (leaving 2x5mm strips on 2 sides for manufacturing holes).
 I'm using copper pours for GND on both sides.
+I placed vias under the converter in hopes of driving heat to the undivided bottom Cu plane.
 
 ![F.Cu](./img/F.Cu.png)
 ![B.Cu](./img/B.Cu.png)
